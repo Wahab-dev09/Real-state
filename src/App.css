@@ -3,7 +3,7 @@
   background-color: rgb(235, 235, 235);
   box-sizing: border-box;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
   padding: 20px 0px 0px 0px;
 }
 .inner-frame{
@@ -11,6 +11,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
   flex-direction: column;
   box-sizing: border-box;
   /* background-color: rgb(124, 62, 187); */
