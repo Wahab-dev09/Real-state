@@ -15,7 +15,52 @@
   overflow-y: hidden;
   flex-direction: column;
   box-sizing: border-box;
-  /* background-color: rgb(124, 62, 187); */
   margin: 0px auto;
   max-width: 790px;
+}
+.loading{
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: grid;
+  place-content: center;
+  color: rgb(14, 14, 14);
+}
+.loading>div{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+}
+.loading>div>img{
+  animation: wiggle 1s linear 0s infinite alternate;
+}
+.load-text{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.load-text>p{
+  font-weight: 600;
+  color: black;
+  animation: pulse 0.8s linear 0s infinite alternate;
+}
+.load-text>span{
+  display: none;
+}
+@keyframes wiggle { 0% { transform: rotate(-6deg); } 100% { transform: rotate(6deg); }}
+@keyframes pulse {  0% { opacity: 0.6;} 100% {opacity: 1;  }}
+@media only screen and (min-width:400px){
+  .load-text>span{
+    display: flex;
+    font-weight: 450;
+    color: rgb(39, 39, 39);
+    animation: pulse 0.8s linear 0s infinite alternate;
+  }
 }
