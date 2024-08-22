@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <header>
       <div className="logo">
-        <img width='25px' height='25px' src={import.meta.env.BASE_URL + '/allstate-logo.png'} alt="All-state-logo" />
+        <img loading='lazy' decoding='async' width='25px' height='25px' src={import.meta.env.BASE_URL + '/allstate-logo.webp'} alt="All-state-logo" />
         <span>Allstate</span>
       </div>
       <ul>
