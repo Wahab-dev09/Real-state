@@ -1,0 +1,112 @@
+footer{
+    width: 100%;
+    padding: 20px 10px 0px 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.footer1{display: flex;width: 100%;padding: 5px;}
+.footer-box1{display: none;width: 50%;min-height: 20px;}
+.footer-box2{
+    width: 100%;
+    min-height: 20px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px 0px;
+    display: none;
+}
+.footer-box2>p{    font-weight: 600;}
+.footer2{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(215, 215, 215);
+}
+.ft-hide{    display: none;}
+.ph-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-logo{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+}
+.foot-logo>span{   font-size: 20px;   font-weight: 750;}
+.ph-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.ph-icons>svg{   cursor: pointer;   transition: all 0.3s ease 0s;}
+.ph-icons>svg:hover{    transform: scale(1.15);    cursor: pointer;}
+@media only screen and (min-width:450px) {
+    .footer1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        padding-bottom: 20px;
+        }
+        .footer-box2{
+            width: 100%;
+            min-height: 20px;
+            display: grid;
+            justify-items: center;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px 0px;
+    }
+    .ph-footer{        display: none;    }
+}
+@media only screen and (min-width:600px) {
+    .footer-box1{
+        display: flex;
+        width: 35%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .footer-box1>p{
+        line-height: 18px;
+    }
+    .foot-logo{
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 4px;
+    }
+    .foot-logo>span{
+        font-size: 24px;
+        font-weight: 750;
+    }
+    .footer-box2{
+        justify-items: end;
+        width: 65%;
+    }
+}
+@media only screen and (min-width:700px) {
+    .footer2{
+        justify-content: space-between;
+    }
+    .ft-hide{
+        display: flex;
+    }
+}

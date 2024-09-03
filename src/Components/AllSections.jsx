@@ -7,6 +7,7 @@ import Features from './Features'
 import Team from './Team'
 import Contact from './Contact'
 import CTA2 from './CTA2'
+import Footer from './Footer'
 
 const AllSections = () => {
   return (
@@ -19,6 +20,7 @@ const AllSections = () => {
       <Team/>
       <Contact/>
       <CTA2/>
+      <Footer/>
     </>
   )
 }
