@@ -12,7 +12,7 @@ const CTA = () => {
           <button>Read more</button>
         </div>
       </div>
-      <img className='cta-img' src={import.meta.env.BASE_URL + "/House.webp"} alt="HOUSE" />
+      <img loading='lazy' decoding='async' fetchpriority='low' className='cta-img' src={import.meta.env.BASE_URL + "/House.webp"} alt="HOUSE" />
         </div>
   )
 }
