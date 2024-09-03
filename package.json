@@ -1,6 +1,7 @@
 {
   "name": "landing-page",
   "private": true,
+  "homepage": "https://Wahab-dev09.github.io/Real-state",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
