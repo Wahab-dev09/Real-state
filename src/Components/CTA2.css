@@ -1,0 +1,47 @@
+.cta-input-btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 37px;
+    max-width: 300px;
+    position: relative;
+}
+.cta-input-btn>input{
+    max-width: 300px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0px 100px 0px 15px;
+    width: 100%;
+    border: 1px solid rgba(163, 163, 163, 0.829);
+    border-radius: 20px;
+}
+.cta-input-btn>input:focus{
+    border: 1px solid rgb(48, 165, 201);
+    outline: navy;
+}
+.cta-input-btn>button{
+    position: absolute;
+    background-color: rgb(32, 32, 32);
+    color: rgb(245, 245, 245);
+    padding: 6px 13px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    right: 5px;
+}
+.cta-img2{
+    display: none;
+}
+@media only screen and (min-width:600px) {
+    .cta-img2{
+        width: 55%;
+        display: flex;
+        height: 200px;
+        object-fit: contain;
+        transform: rotateY(0deg);
+    }
+}
