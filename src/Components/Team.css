@@ -1,0 +1,105 @@
+.Team-main{
+    width: 100%;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 17px;
+}
+.members-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.members-box>div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 0px 20px 0px;
+    gap: 8px;
+    overflow: auto;
+    position:relative;
+}
+.member{
+    flex: 0 0 60%;
+    background-color: rgb(224, 224, 224);
+    box-sizing: border-box;
+    padding: 15px;
+    border: transparent;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px -17px rgba(223, 89, 89, 0.425);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.member-txt-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.p-img {
+    object-fit: cover;
+    background-color: rgb(82, 82, 82);
+    border: transparent;
+    border-radius: 50%;
+    object-position: center center;
+}
+@media only screen and (min-width:420px) {
+    .members-box{
+        margin-top: 0px;
+    }
+    .members-box>div{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 10px 0px;
+        gap: 8px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        position:relative;
+    }
+    .member{
+        flex: 0 0 41%;
+        background-color: rgb(224, 224, 224);
+        box-sizing: border-box;
+        padding: 15px;
+        border: transparent;
+        border-radius: 15px;
+        box-shadow: 5px 5px 20px -17px rgba(43, 43, 43, 0.425);
+        position: relative;
+    }
+}
+@media only screen and (min-width:600px) {
+    .members-box>div{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 0px;
+        overflow-y: hidden;
+    }
+    .member{
+        flex: 0 0 32.2%;
+        background-color: rgb(224, 224, 224);
+        box-shadow: 5px 5px 20px -17px rgba(43, 43, 43, 0.425);
+    }
+}
+@media only screen and (min-width:800px) {
+    .member{
+        flex: 0 0 32.5%;
+        background-color: rgb(224, 224, 224);
+        box-shadow: 5px 5px 20px -17px rgba(43, 43, 43, 0.425);
+    }
+}
