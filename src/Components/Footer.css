@@ -45,7 +45,7 @@ footer{
     align-items: center;
     gap: 4px;
 }
-.foot-logo>span{   font-size: 20px;   font-weight: 750;}
+.foot-logo>span{   font-size: 22px;   font-weight: 900; letter-spacing: -2px;}
 .ph-icons{
     display: flex;
     justify-content: center;

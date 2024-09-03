@@ -13,7 +13,7 @@ const Navbar = () => {
     <header>
       <div className="logo">
         <img loading='lazy' decoding='async' width='25px' height='25px' src={import.meta.env.BASE_URL + '/allstate-logo.webp'} alt="All-state-logo" />
-        <span>Allstate</span>
+        <span>Real state</span>
       </div>
       <ul>
         <li className='xsmall-txt li1'>About us</li>

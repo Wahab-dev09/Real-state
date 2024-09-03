@@ -8,8 +8,8 @@ const Footer = () => {
                 <div className="ph-footer">
                     <div>
                         <div className="foot-logo">
-                            <img width='30px' loading='lazy' decoding='async' src={import.meta.env.BASE_URL + "/allstate-logo.webp"} alt="logo" />
-                            <span>Allstate</span>
+                            <img width='30px' height='30px' loading='lazy' decoding='async' src={import.meta.env.BASE_URL + "/allstate-logo.webp"} alt="logo" />
+                            <span>Real state</span>
                         </div>
                     </div>
                     <div className="ph-icons">
@@ -20,8 +20,8 @@ const Footer = () => {
                 </div>
                 <div className="footer-box1">
                     <div className="foot-logo">
-                        <img width='40px' loading='lazy' decoding='async' src={import.meta.env.BASE_URL + "/allstate-logo.webp"} alt="logo" />
-                        <span>Allstate</span>
+                        <img width='40px' height='40px' loading='lazy' decoding='async' src={import.meta.env.BASE_URL + "/allstate-logo.webp"} alt="logo" />
+                        <span>Real state</span>
                     </div>
                     <p className='xsmall-txt'>Your Dream Home Awaits - Explore Today!</p>
                 </div>
