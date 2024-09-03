@@ -10,3 +10,9 @@ Welcome to the **Real Estate Landing Page** — a modern solution designed to sh
 - **Responsive and Fast**: Optimized for all devices with quick load times and smooth performance.
 
 This landing page is a perfect blend of aesthetic appeal and functionality, designed to make your real estate business stand out and drive results.
+
+## Key Learnings
+
+- **UI/UX Design**: Emphasizes creating user-centered, accessible interfaces with a strong visual hierarchy.
+- **CSS**: Focuses on responsive layouts and efficient use of Flexbox, Grid, and variables for consistent styling.
+- **Framer Motion**: Utilizes smooth animations and scroll-triggered effects to enhance user interactions and transitions.
