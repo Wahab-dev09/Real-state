@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             <div className="footer2">
                 <span className='xsmall-txt ft-hide'>Privacy policy</span>
-                <span className='small-txt'>All rights reserved 2024 allstate &copy;</span>
+                <span className='small-txt'>All rights reserved 2024 Real state &copy;</span>
                 <span className='xsmall-txt ft-hide'>Terms and conditon</span>
             </div>
         </footer>
