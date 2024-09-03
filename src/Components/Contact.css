@@ -1,0 +1,162 @@
+.contact-main{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 0px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.contact-sec-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.contact-sec-head>span{
+    text-align:left;
+    width: auto;
+}
+.contact-sec-head >p{
+width: 90%;
+line-height: 38px;
+max-width: 400px;
+}
+.contact-sec-form>p{
+    width: 100%;
+    text-align: left;
+    display: none;
+}
+.contact-sec-form{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.contact-sec-form>button{
+    background-color: rgb(32, 32, 32);
+    color: rgb(245, 245, 245);
+    padding: 7px 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.formdet{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-direction: column;
+}
+.formdet>div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    padding: 5px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.formdet>div>input{
+    width: 100%;
+    border: 1px solid rgb(217, 217, 217);;
+    background-color: transparent;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 3.9px 10px;
+}
+.contact-call-txt{
+    display: none;
+}
+@media only screen and (min-width:400px) {
+    .formdet{
+        flex-direction: row;
+        gap: 1%;
+    }
+    .formdet>div{
+        width: 49%;
+    }
+    .formdet>div>input{
+        width: 95%;
+        max-width: 250px;
+    }
+}
+@media only screen and (min-width:700px) {
+    .formdet>div>input{
+        width: 93%;
+    }
+    .contact-sec-form>p{
+        width: 100%;
+        text-align: left;
+        display: flex;
+        box-sizing: border-box;
+        padding: 0px 5px;
+    }
+    .contact-main{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 30px 0px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+    .contact-sec-head{
+        align-self: flex-start;
+        width: 44%;
+        box-sizing: border-box;
+        padding: 0px 15px;
+    }
+    .contact-sec-head >p{
+        width: 100%;
+        line-height: 38px;
+        /* max-width: 400px; */
+        text-align: left;
+    }
+    .contact-sec-head >span{
+        align-self: start;
+    }
+    .contact-sec-form{
+        width: 55%;
+        box-sizing: border-box;
+        padding: 10px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+    .formdet{
+        flex-direction: row;
+        gap: 2%;
+    }
+    .contact-call-txt{
+        align-self:flex-start;
+        display: inline-block;
+        font-size: 0.94rem;
+        width: 85%;
+        line-height: 25px;
+        margin-top: 90px;
+    }
+    .contact-call-txt>span{
+        margin-left: 4px;
+        font-weight: 600;
+        color: rgb(138, 101, 0);
+    }
+}

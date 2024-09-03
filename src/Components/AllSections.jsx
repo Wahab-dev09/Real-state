@@ -5,6 +5,7 @@ import Detail from './Detail'
 import CTA from './CTA'
 import Features from './Features'
 import Team from './Team'
+import Contact from './Contact'
 
 const AllSections = () => {
   return (
@@ -15,6 +16,7 @@ const AllSections = () => {
       <CTA/>
       <Features/>
       <Team/>
+      <Contact/>
     </>
   )
 }
