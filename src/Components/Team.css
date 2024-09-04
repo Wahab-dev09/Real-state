@@ -18,12 +18,12 @@
 .members-box>div{
     width: 100%;
     display: flex;
+    overflow-x: scroll;
     justify-content: flex-start;
     align-items: center;
     box-sizing: border-box;
     padding: 10px 0px 20px 0px;
     gap: 8px;
-    overflow-x: auto;
     overflow-y: hidden;
 }
 .member{
