@@ -23,8 +23,8 @@
     box-sizing: border-box;
     padding: 10px 0px 20px 0px;
     gap: 8px;
-    overflow: auto;
-    position:relative;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 .member{
     flex: 0 0 60%;
@@ -60,16 +60,9 @@
         margin-top: 0px;
     }
     .members-box>div{
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        box-sizing: border-box;
-        padding: 10px 0px;
+        padding: 20px 0px;
         gap: 8px;
         overflow-x: auto;
-        overflow-y: hidden;
-        position:relative;
     }
     .member{
         flex: 0 0 41%;
@@ -80,7 +73,6 @@
         justify-content: center;
         flex-wrap: wrap;
         padding: 10px 0px;
-        overflow-y: hidden;
     }
     .member{
         flex: 0 0 32.2%;

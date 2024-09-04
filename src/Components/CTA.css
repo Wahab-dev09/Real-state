@@ -27,6 +27,7 @@
     box-sizing: border-box;
     padding-left: 10px;
 }
+.cta-box>p:nth-child(2){    font-size: 0.9rem;    max-width: 380px;}
 .cta-btns{
     width: 100%;
     display: flex;
@@ -60,6 +61,7 @@
         object-fit: contain;
         transform: rotateY(180deg);
     }
+    .cta-box>p:nth-child(2){    font-size: 1rem;}
 }
 @media only screen and (min-width:828px) {
     .cta-box{width: 55%;padding: 0px 10px 0px 22px;}
